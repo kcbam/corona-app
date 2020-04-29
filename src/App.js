@@ -6,6 +6,7 @@ import styles from './App.module.css';
 class App extends Component {
     state = {
         data:{},
+        country: '',
     }
     async componentDidMount(){
         const fetchedData = await fetchData();
